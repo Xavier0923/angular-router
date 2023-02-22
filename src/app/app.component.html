@@ -1,6 +1,6 @@
 <h1>Router Link</h1>
 <ul>
-  <li><button [routerLinkActive]="'active'" routerLink="home">home</button></li>
+  <li><button [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact: true}" routerLink="">home</button></li>
   <li><button [routerLinkActive]="'active'" [routerLink]="'contact'">contact</button></li>
   <li><button [routerLinkActive]="'active'" [routerLink]="['courses']">courses</button></li>
   <li><button [routerLinkActive]="'active'" routerLink="/about">about</button></li>
